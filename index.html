@@ -26,18 +26,43 @@
             background-color: chartreuse ;
             color: red;
         }
-        a:active {
+        a:active{
             font-weight: bold;   
             color: orange;
             text-shadow: 3px 3px 5px black;
         }
+        #boton-bordes{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #boton-bordes:link{
+            background-color: green;
+            color: red;
+        }
+        #border-bordes:visited{
+            background-color: black;
+            color: white;
+        }
+        #boton-bordes:hover{
+            background-color: red;
+            color: yellow;
+            font-weight: bolder;
+        }
+        #boton-bordes:active{
+            background-color: blue;
+            color: orange;
+            font-style: italic;
+        }
+
     </style>
 </head>
 <body>
     <h1>Propiedades de Enlaces</h1>
     <a href="hhtp://iesjuanbosco.es">Contacto</a>
-    <a href="bordes.html">el otro ejercicio
-        
+    <a id="boton-bordes" href="bordes.html">Bordes</a>
+
     </a>
 </body>
 </html>
